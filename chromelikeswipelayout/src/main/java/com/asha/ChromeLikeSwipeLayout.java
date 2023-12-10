@@ -4,13 +4,6 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.PointF;
-import android.support.annotation.ColorInt;
-import android.support.annotation.DrawableRes;
-import android.support.v4.view.NestedScrollingChildHelper;
-import android.support.v4.view.NestedScrollingParent;
-import android.support.v4.view.NestedScrollingParentHelper;
-import android.support.v4.view.ScrollingView;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -26,6 +19,14 @@ import com.asha.library.R;
 
 import java.util.LinkedList;
 import java.util.List;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.DrawableRes;
+import androidx.core.view.NestedScrollingChildHelper;
+import androidx.core.view.NestedScrollingParent;
+import androidx.core.view.NestedScrollingParentHelper;
+import androidx.core.view.ScrollingView;
+import androidx.core.view.ViewCompat;
 
 /**
  * Created by hzqiujiadi on 15/11/20.

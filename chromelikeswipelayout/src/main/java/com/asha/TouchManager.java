@@ -1,7 +1,7 @@
 package com.asha;
 
 import android.graphics.PointF;
-import android.support.v4.view.MotionEventCompat;
+import androidx.core.view.MotionEventCompat;
 import android.view.MotionEvent;
 
 import static com.asha.ChromeLikeSwipeLayout.dp2px;

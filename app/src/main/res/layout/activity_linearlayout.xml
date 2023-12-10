@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.asha.chromelikeswipelayout.MainActivity">
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -15,7 +15,7 @@
             android:text="AppBar"
             android:layout_width="match_parent"
             android:layout_height="60dp" />
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
     <com.asha.ChromeLikeSwipeLayout
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:id="@+id/chrome_like_swipe_layout"
@@ -67,4 +67,4 @@
                 android:text="I am in LinearLayout" />
         </LinearLayout>
     </com.asha.ChromeLikeSwipeLayout>
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

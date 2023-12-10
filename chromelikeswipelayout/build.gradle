@@ -1,13 +1,10 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    compileSdk = 33
     defaultConfig {
-        minSdkVersion 7
-        targetSdkVersion 23
-        versionCode 4
-        versionName "0.4"
+        minSdkVersion 14
+        targetSdk 33
     }
     buildTypes {
         release {
@@ -17,10 +14,11 @@ android {
     }
     productFlavors {
     }
+    namespace 'com.asha.library'
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.2.0'
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
 }

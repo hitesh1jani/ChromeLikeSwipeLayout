@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout android:layout_width="match_parent"
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:test="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <android.support.design.widget.AppBarLayout
+    <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
@@ -14,17 +14,17 @@
             android:text="AppBar"
             android:layout_width="match_parent"
             android:layout_height="40dp" />
-    </android.support.design.widget.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
     <com.asha.ChromeLikeSwipeLayout
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
         android:id="@+id/chrome_like_swipe_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <android.support.percent.PercentRelativeLayout
+        <androidx.percentlayout.widget.PercentRelativeLayout
             xmlns:test="http://schemas.android.com/apk/res-auto"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
-            <android.support.v7.widget.RecyclerView
+            <androidx.recyclerview.widget.RecyclerView
                 android:background="#fff5d0"
                 android:id="@+id/recyclerView"
                 android:layout_width="0dp"
@@ -33,7 +33,7 @@
                 test:layout_widthPercent="33%"
                 android:layout_centerVertical="true"
                 >
-            </android.support.v7.widget.RecyclerView>
+            </androidx.recyclerview.widget.RecyclerView>
             <ScrollView
                 android:background="#ffe7f7"
                 android:layout_toRightOf="@id/recyclerView"
@@ -95,6 +95,6 @@
                         android:text="I am in ScrollView" />
                 </LinearLayout>
             </ScrollView>
-        </android.support.percent.PercentRelativeLayout>
+        </androidx.percentlayout.widget.PercentRelativeLayout>
     </com.asha.ChromeLikeSwipeLayout>
-</android.support.design.widget.CoordinatorLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

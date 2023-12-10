@@ -2,10 +2,10 @@ package com.asha;
 
 import android.content.Context;
 import android.graphics.PointF;
-import android.support.v4.view.MotionEventCompat;
-import android.support.v4.view.NestedScrollingChild;
-import android.support.v4.view.NestedScrollingChildHelper;
-import android.support.v4.view.ViewCompat;
+import androidx.core.view.MotionEventCompat;
+import androidx.core.view.NestedScrollingChild;
+import androidx.core.view.NestedScrollingChildHelper;
+import androidx.core.view.ViewCompat;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
